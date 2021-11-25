@@ -72,15 +72,15 @@
                             border-bottom: 1px solid #111;
                             padding: 15px 0;
                             font: 16px/1.5 'arial';
-                            margin-bottom: 40px;
+                            margin-bottom: 60px;
                         }
                         .txt{
-                            display: flex;
+                            
                             h2{
                                 font: bold 80px/1 'arial';
                                 text-align: center;
                                 transform: scale(2, 1.5);
-                                letter-spacing: 3px;
+                                letter-spacing: 22px;
                                 -webkit-text-stroke: 2px #111;
                                 margin-bottom: 30px;
                             }
@@ -90,11 +90,13 @@
                                 color: #fff;
                                 text-align: center;
                                 transform: scale(2, 1.5);
-                                letter-spacing: 3px;
-                                margin-bottom: 50px;
+                                letter-spacing: 22px;
+                                
                             }
                             span{
                                 font: 30px/1 'arial';
+                                display: block;
+                                margin-top: 150px;
                                 
                             }
                         }

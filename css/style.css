@@ -72,5 +72,53 @@ a {
           width: 20%;
           writing-mode: vertical-lr;
           font: bold 100px/1 'arial'; }
+    #wrap .swiper-wrapper .sld2 .inner {
+      padding: 0px 30px; }
+      #wrap .swiper-wrapper .sld2 .inner .wrap {
+        display: flex; }
+        #wrap .swiper-wrapper .sld2 .inner .wrap .left {
+          width: 45%;
+          display: flex;
+          justify-content: space-between; }
+          #wrap .swiper-wrapper .sld2 .inner .wrap .left .txt {
+            height: 100vh;
+            border-right: 2px solid #111;
+            padding-right: 30px; }
+            #wrap .swiper-wrapper .sld2 .inner .wrap .left .txt h1 {
+              font: bold 90px/1 'arial';
+              writing-mode: vertical-rl;
+              letter-spacing: 8px;
+              transform: rotate(180deg) scale(1.5);
+              position: relative;
+              top: 20%; }
+          #wrap .swiper-wrapper .sld2 .inner .wrap .left .box {
+            padding: 60px 30px; }
+            #wrap .swiper-wrapper .sld2 .inner .wrap .left .box h2 {
+              font: 24px/1 'arial';
+              margin-bottom: 40px; }
+            #wrap .swiper-wrapper .sld2 .inner .wrap .left .box p {
+              font: 18px/1.4 'arial';
+              margin-bottom: 80px; }
+            #wrap .swiper-wrapper .sld2 .inner .wrap .left .box ul {
+              display: flex;
+              justify-content: space-evenly;
+              border-top: 2px solid #111;
+              border-bottom: 2px solid #111; }
+              #wrap .swiper-wrapper .sld2 .inner .wrap .left .box ul li {
+                padding: 10px; }
+                #wrap .swiper-wrapper .sld2 .inner .wrap .left .box ul li:nth-of-type(1) {
+                  border-right: 2px solid #111; }
+                #wrap .swiper-wrapper .sld2 .inner .wrap .left .box ul li a {
+                  font: bold 17px/1 'arial';
+                  color: #111;
+                  display: block; }
+                  #wrap .swiper-wrapper .sld2 .inner .wrap .left .box ul li a i {
+                    margin-left: 5px; }
+        #wrap .swiper-wrapper .sld2 .inner .wrap .right {
+          width: 55%;
+          height: 100%; }
+          #wrap .swiper-wrapper .sld2 .inner .wrap .right img {
+            width: 100%;
+            height: 100%; }
 
 /*# sourceMappingURL=style.css.map */

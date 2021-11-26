@@ -87,13 +87,14 @@ a {
       #wrap .swiper-wrapper .sld2 .inner .wrap {
         display: flex; }
         #wrap .swiper-wrapper .sld2 .inner .wrap .left {
-          width: 45%;
+          width: 50%;
           display: flex;
           justify-content: space-between; }
           #wrap .swiper-wrapper .sld2 .inner .wrap .left .txt {
             height: 100vh;
             border-right: 2px solid #111;
-            padding-right: 30px; }
+            padding-right: 30px;
+            margin-right: 20px; }
             #wrap .swiper-wrapper .sld2 .inner .wrap .left .txt h1 {
               font: bold 90px/1 'arial';
               writing-mode: vertical-rl;
@@ -102,34 +103,45 @@ a {
               position: relative;
               top: 20%; }
           #wrap .swiper-wrapper .sld2 .inner .wrap .left .box {
-            padding: 60px 30px; }
-            #wrap .swiper-wrapper .sld2 .inner .wrap .left .box h2 {
+            padding: 60px 30px;
+            display: grid;
+            align-content: stretch;
+            align-items: center; }
+            #wrap .swiper-wrapper .sld2 .inner .wrap .left .box article h2 {
               font: 24px/1 'arial';
               margin-bottom: 40px; }
-            #wrap .swiper-wrapper .sld2 .inner .wrap .left .box p {
+            #wrap .swiper-wrapper .sld2 .inner .wrap .left .box article p {
               font: 18px/1.4 'arial';
               margin-bottom: 80px; }
-            #wrap .swiper-wrapper .sld2 .inner .wrap .left .box ul {
+            #wrap .swiper-wrapper .sld2 .inner .wrap .left .box article ul {
               display: flex;
               justify-content: space-evenly;
               border-top: 2px solid #111;
               border-bottom: 2px solid #111; }
-              #wrap .swiper-wrapper .sld2 .inner .wrap .left .box ul li {
-                padding: 10px; }
-                #wrap .swiper-wrapper .sld2 .inner .wrap .left .box ul li:nth-of-type(1) {
+              #wrap .swiper-wrapper .sld2 .inner .wrap .left .box article ul li {
+                padding: 10px;
+                width: 50%; }
+                #wrap .swiper-wrapper .sld2 .inner .wrap .left .box article ul li:nth-of-type(1) {
                   border-right: 2px solid #111; }
-                #wrap .swiper-wrapper .sld2 .inner .wrap .left .box ul li a {
+                #wrap .swiper-wrapper .sld2 .inner .wrap .left .box article ul li a {
                   font: bold 17px/1 'arial';
                   color: #111;
                   display: block; }
-                  #wrap .swiper-wrapper .sld2 .inner .wrap .left .box ul li a i {
+                  #wrap .swiper-wrapper .sld2 .inner .wrap .left .box article ul li a i {
                     margin-left: 5px; }
         #wrap .swiper-wrapper .sld2 .inner .wrap .right {
-          width: 55%;
-          height: 100%; }
+          width: 50%;
+          height: 100%;
+          padding: 60px 50px;
+          margin: 0 auto;
+          text-align: center; }
           #wrap .swiper-wrapper .sld2 .inner .wrap .right img {
             width: 100%;
-            height: 100%; }
+            height: 350px;
+            object-fit: contain;
+            border: 1px solid #bbb; }
+            #wrap .swiper-wrapper .sld2 .inner .wrap .right img:nth-of-type(1) {
+              margin-bottom: 20px; }
     #wrap .swiper-wrapper .sld3 .inner .wrap {
       display: flex; }
       #wrap .swiper-wrapper .sld3 .inner .wrap .left {

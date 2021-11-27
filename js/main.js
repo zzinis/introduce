@@ -1,4 +1,7 @@
+const menu = ["About", "Website", "Grid", "Isotope"]
+
 const swiper = new Swiper("#wrap",{
+
     loop: true,
     sliderPerView: "auto",
     centeredSlides: true,
@@ -13,7 +16,10 @@ const swiper = new Swiper("#wrap",{
     pagination:{
         el: ".swiper-pagination",
         type: "bullets",
-        clickable: true
+        clickable: true,
+        renderBullet: function(index,className){
+            return`<span class="${className}">${menu[index]}</span>`
+        }
     },
     // effect :"coverflow",
     // coverflowEffect:{

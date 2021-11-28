@@ -35,7 +35,7 @@
                     .left{
                         width: 50%;
                         h1{
-                            font: 20px/1 'arial';
+                            font: 20px/1 'Heebo';
                         }
                     }
                     .right{
@@ -47,7 +47,7 @@
                             padding: 5px 0;
                             li{
                                 margin-right: 35px;
-                                font: 17px/1 'arial';
+                                font: 17px/1 'Open Sans';
                                 &:nth-of-type(3){
                                     margin-left: auto;
                                     margin-right: 0;
@@ -64,7 +64,7 @@
                             li{
                                 margin-bottom: 8px;
                                 a{
-                                    font: 17px/1.2 'arial';
+                                    font: 17px/1.2 'Open Sans';
                                     color: #111;
                                 }
                             }
@@ -79,7 +79,7 @@
                         .txt{
                             
                             h2{
-                                font: bold 80px/1 'arial';
+                                font: bold 80px/1 'Heebo';
                                 text-align: center;
                                 transform: scale(2, 1.5);
                                 letter-spacing: 22px;
@@ -87,7 +87,7 @@
                                 margin-bottom: 30px;
                             }
                             h3{
-                                font: bold 80px/1 'arial';
+                                font: bold 80px/1 'Heebo';
                                 -webkit-text-stroke: 1px #d3d1d1;
                                 color: #fff;
                                 text-align: center;
@@ -96,7 +96,7 @@
                                 
                             }
                             span{
-                                font: 30px/1 'arial';
+                                font: 30px/1 'Heebo';
                                 display: block;
                                 margin-top: 150px;
                                 
@@ -142,11 +142,11 @@
                             align-items: center;
                             article{
                                 h2{
-                                    font: 24px/1 'arial';
+                                    font: 24px/1 'Noto Sans KR';
                                     margin-bottom: 40px;
                                 }
                                 p{
-                                    font: 18px/1.4 'arial';
+                                    font: 18px/1.4 'Heebo';
                                     margin-bottom: 80px;
                                 }
     
@@ -160,7 +160,7 @@
                                         width: 50%;
                                         &:nth-of-type(1){border-right: 2px solid #111;}
                                         a{
-                                            font: bold 17px/1 'arial';
+                                            font: bold 17px/1 'Noto Sans KR';
                                             color: #111;
                                             display: block;
                                             i{margin-left: 5px;}
@@ -276,11 +276,11 @@
                             height: 350px;
                             padding: 80px 40px 20px;
                             h1{
-                                font: 40px/1 'arial';
+                                font: bold 40px/1 'Bebas Neue';
                                 margin-bottom: 40px;
                             }
                             p{
-                                font: 20px/1.5 'arial';
+                                font: 20px/1.5 'Bebas Neue';
                                 margin-bottom: 20px;
                             }
                         }
@@ -289,7 +289,7 @@
                             display: block;
                             padding: 30px 40px;
                             color: #111;
-                            font: 20px/1 'arial';
+                            font: 20px/1 'Noto Sans KR';
                             i{
                                 float: right;
                             }
@@ -323,7 +323,8 @@
             border-radius: 0;
             opacity: 0.7;
             margin-left: 30px;
-            font: 15px/1 'arial';
+            font: 15px/1 'Archivo';
+            
 
             &.swiper-pagination-bullet-active{
                 opacity: 1;

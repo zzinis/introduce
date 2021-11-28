@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Bebas+Neue&family=Heebo&family=Noto+Sans+KR&family=Open+Sans&family=Playfair+Display&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -35,7 +36,7 @@ a {
       #wrap .swiper-wrapper .sld1 .inner .wrap .left {
         width: 50%; }
         #wrap .swiper-wrapper .sld1 .inner .wrap .left h1 {
-          font: 20px/1 'arial'; }
+          font: 20px/1 'Heebo'; }
       #wrap .swiper-wrapper .sld1 .inner .wrap .right {
         width: 50%; }
         #wrap .swiper-wrapper .sld1 .inner .wrap .right .top {
@@ -45,7 +46,7 @@ a {
           padding: 5px 0; }
           #wrap .swiper-wrapper .sld1 .inner .wrap .right .top li {
             margin-right: 35px;
-            font: 17px/1 'arial'; }
+            font: 17px/1 'Open Sans'; }
             #wrap .swiper-wrapper .sld1 .inner .wrap .right .top li:nth-of-type(3) {
               margin-left: auto;
               margin-right: 0; }
@@ -57,7 +58,7 @@ a {
           #wrap .swiper-wrapper .sld1 .inner .wrap .right .port li {
             margin-bottom: 8px; }
             #wrap .swiper-wrapper .sld1 .inner .wrap .right .port li a {
-              font: 17px/1.2 'arial';
+              font: 17px/1.2 'Open Sans';
               color: #111; }
         #wrap .swiper-wrapper .sld1 .inner .wrap .right p {
           text-align: right;
@@ -66,21 +67,21 @@ a {
           font: 16px/1.5 'arial';
           margin-bottom: 60px; }
         #wrap .swiper-wrapper .sld1 .inner .wrap .right .txt h2 {
-          font: bold 80px/1 'arial';
+          font: bold 80px/1 'Heebo';
           text-align: center;
           transform: scale(2, 1.5);
           letter-spacing: 22px;
           -webkit-text-stroke: 2px #111;
           margin-bottom: 30px; }
         #wrap .swiper-wrapper .sld1 .inner .wrap .right .txt h3 {
-          font: bold 80px/1 'arial';
+          font: bold 80px/1 'Heebo';
           -webkit-text-stroke: 1px #d3d1d1;
           color: #fff;
           text-align: center;
           transform: scale(2, 1.5);
           letter-spacing: 22px; }
         #wrap .swiper-wrapper .sld1 .inner .wrap .right .txt span {
-          font: 30px/1 'arial';
+          font: 30px/1 'Heebo';
           display: block;
           margin-top: 150px; }
     #wrap .swiper-wrapper .sld2 .inner {
@@ -107,10 +108,10 @@ a {
           align-content: stretch;
           align-items: center; }
           #wrap .swiper-wrapper .sld2 .inner .wrap .left .box article h2 {
-            font: 24px/1 'arial';
+            font: 24px/1 'Noto Sans KR';
             margin-bottom: 40px; }
           #wrap .swiper-wrapper .sld2 .inner .wrap .left .box article p {
-            font: 18px/1.4 'arial';
+            font: 18px/1.4 'Heebo';
             margin-bottom: 80px; }
           #wrap .swiper-wrapper .sld2 .inner .wrap .left .box article ul {
             display: flex;
@@ -123,7 +124,7 @@ a {
               #wrap .swiper-wrapper .sld2 .inner .wrap .left .box article ul li:nth-of-type(1) {
                 border-right: 2px solid #111; }
               #wrap .swiper-wrapper .sld2 .inner .wrap .left .box article ul li a {
-                font: bold 17px/1 'arial';
+                font: bold 17px/1 'Noto Sans KR';
                 color: #111;
                 display: block; }
                 #wrap .swiper-wrapper .sld2 .inner .wrap .left .box article ul li a i {
@@ -194,17 +195,17 @@ a {
           height: 350px;
           padding: 80px 40px 20px; }
           #wrap .swiper-wrapper .sld4 .inner .wrap .left article h1 {
-            font: 40px/1 'arial';
+            font: bold 40px/1 'Bebas Neue';
             margin-bottom: 40px; }
           #wrap .swiper-wrapper .sld4 .inner .wrap .left article p {
-            font: 20px/1.5 'arial';
+            font: 20px/1.5 'Bebas Neue';
             margin-bottom: 20px; }
         #wrap .swiper-wrapper .sld4 .inner .wrap .left a {
           border-bottom: 1px solid #111;
           display: block;
           padding: 30px 40px;
           color: #111;
-          font: 20px/1 'arial'; }
+          font: 20px/1 'Noto Sans KR'; }
           #wrap .swiper-wrapper .sld4 .inner .wrap .left a i {
             float: right; }
       #wrap .swiper-wrapper .sld4 .inner .wrap .right {
@@ -227,7 +228,7 @@ a {
       border-radius: 0;
       opacity: 0.7;
       margin-left: 30px;
-      font: 15px/1 'arial'; }
+      font: 15px/1 'Archivo'; }
       #wrap .swiper-pagination span.swiper-pagination-bullet-active {
         opacity: 1;
         font-weight: bold; }

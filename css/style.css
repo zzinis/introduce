@@ -204,11 +204,15 @@ a {
           display: block;
           padding: 30px 40px;
           color: #111;
-          font: 20px/1 'Noto Sans KR'; }
+          font: 20px/1 'Noto Sans KR';
+          transition: 0.5s; }
           #wrap .swiper-wrapper .sld4 .inner .wrap .left a i {
-            float: right; }
+            float: right;
+            transition: 0.5s; }
           #wrap .swiper-wrapper .sld4 .inner .wrap .left a:hover {
             font: bold 20px/1 'Noto Sans KR'; }
+            #wrap .swiper-wrapper .sld4 .inner .wrap .left a:hover i {
+              transform: translateX(10px); }
       #wrap .swiper-wrapper .sld4 .inner .wrap .right {
         width: 40%;
         border-left: 1px solid #111; }

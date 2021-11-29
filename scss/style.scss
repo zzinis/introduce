@@ -291,11 +291,16 @@
                             padding: 30px 40px;
                             color: #111;
                             font: 20px/1 'Noto Sans KR';
+                            transition: 0.5s;
                             i{
                                 float: right;
+                                transition: 0.5s;
                             }
                             &:hover {
                                 font: bold 20px/1 'Noto Sans KR';    
+                                i{
+                                    transform: translateX(10px);
+                                }
                             }
                             
                         }

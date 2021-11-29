@@ -207,6 +207,8 @@ a {
           font: 20px/1 'Noto Sans KR'; }
           #wrap .swiper-wrapper .sld4 .inner .wrap .left a i {
             float: right; }
+          #wrap .swiper-wrapper .sld4 .inner .wrap .left a:hover {
+            font: bold 20px/1 'Noto Sans KR'; }
       #wrap .swiper-wrapper .sld4 .inner .wrap .right {
         width: 40%;
         border-left: 1px solid #111; }
